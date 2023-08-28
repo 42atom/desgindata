@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-28T17:17:58.600Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15" etag="BGDNwmXFU2AqdWVA3pQt" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-28T17:23:24.832Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15" etag="mTO_I9w2ngZK29jwRNfj" version="21.6.9" type="github">
   <diagram name="第 1 页" id="IOFBIGlpEkWvhjMVzclq">
-    <mxGraphModel dx="2341" dy="1535" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" background="#D4E1F5" math="0" shadow="0">
+    <mxGraphModel dx="1946" dy="1343" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" background="#D4E1F5" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,8 +25,8 @@
         <mxCell id="lve1HU6sVbhPU620Vps4-57" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lve1HU6sVbhPU620Vps4-3" target="lve1HU6sVbhPU620Vps4-44">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lve1HU6sVbhPU620Vps4-3" value="前端" style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;" vertex="1" parent="1">
-          <mxGeometry x="329" y="52" width="42" height="26" as="geometry" />
+        <mxCell id="lve1HU6sVbhPU620Vps4-3" value="应用前端" style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;" vertex="1" parent="1">
+          <mxGeometry x="315" y="50" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lve1HU6sVbhPU620Vps4-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;" edge="1" parent="1" source="lve1HU6sVbhPU620Vps4-10" target="lve1HU6sVbhPU620Vps4-13">
           <mxGeometry relative="1" as="geometry" />
@@ -49,7 +49,10 @@
         <mxCell id="lve1HU6sVbhPU620Vps4-31" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;" edge="1" parent="1" source="lve1HU6sVbhPU620Vps4-25" target="lve1HU6sVbhPU620Vps4-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lve1HU6sVbhPU620Vps4-25" value="用户身份/协议/合同" style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="lve1HU6sVbhPU620Vps4-66" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lve1HU6sVbhPU620Vps4-25" target="lve1HU6sVbhPU620Vps4-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lve1HU6sVbhPU620Vps4-25" value="用户 数据" style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;" vertex="1" parent="1">
           <mxGeometry x="442" y="119" width="121" height="26" as="geometry" />
         </mxCell>
         <mxCell id="lve1HU6sVbhPU620Vps4-28" value="用户非组织者 @子帐号&lt;br&gt;&lt;br&gt;用户所属组织&lt;br&gt;基础服务时间/到期时间&lt;br&gt;该组织已订阅AI服务类型&lt;br&gt;AI服务及套餐类型&lt;br&gt;用户使用历史记录" style="whiteSpace=wrap;html=1;rounded=1;align=right;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;" vertex="1" parent="1">
@@ -61,6 +64,15 @@
         <mxCell id="lve1HU6sVbhPU620Vps4-40" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lve1HU6sVbhPU620Vps4-29" target="lve1HU6sVbhPU620Vps4-33">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="lve1HU6sVbhPU620Vps4-63" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lve1HU6sVbhPU620Vps4-29" target="lve1HU6sVbhPU620Vps4-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lve1HU6sVbhPU620Vps4-64" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lve1HU6sVbhPU620Vps4-29" target="lve1HU6sVbhPU620Vps4-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lve1HU6sVbhPU620Vps4-65" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lve1HU6sVbhPU620Vps4-29" target="lve1HU6sVbhPU620Vps4-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lve1HU6sVbhPU620Vps4-29" value="企业身份验证 @组织者&lt;br&gt;&lt;br&gt;用户企业身份验证 / 可选&lt;br&gt;提交营业执照等企业信息 / 可选&lt;br&gt;是否已签订合同 / 可选" style="whiteSpace=wrap;rounded=1;align=right;html=1;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="627" y="89" width="188" height="86" as="geometry" />
         </mxCell>
@@ -70,10 +82,10 @@
         <mxCell id="lve1HU6sVbhPU620Vps4-38" value="专属企业入口@组织者&lt;br&gt;&lt;br&gt;获得 用户企业专属入口&lt;br&gt;Title 为企业名称&lt;br&gt;页面样式可定制&lt;br&gt;仅供该企业子帐号登录" style="whiteSpace=wrap;rounded=1;align=right;html=1;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="864" y="82" width="145" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="lve1HU6sVbhPU620Vps4-41" value="订阅AI服务@组织者&lt;br&gt;&lt;br&gt;订阅指定AI服务/订阅时长&lt;br&gt;" style="whiteSpace=wrap;html=1;rounded=1;align=right;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="lve1HU6sVbhPU620Vps4-41" value="商店/订阅AI服务@组织者&lt;br&gt;&lt;br&gt;订阅指定AI服务/订阅时长" style="whiteSpace=wrap;html=1;rounded=1;align=right;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="864" y="296" width="157" height="58" as="geometry" />
         </mxCell>
-        <mxCell id="lve1HU6sVbhPU620Vps4-42" value="AI服务数据管理@组织者&lt;br&gt;&lt;br&gt;查看子账户使用服务数据&lt;br&gt;子帐号用量报表&lt;br&gt;总用量报表" style="whiteSpace=wrap;html=1;rounded=1;align=right;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+        <mxCell id="lve1HU6sVbhPU620Vps4-42" value="AI服务数据统计@组织者&lt;br&gt;&lt;br&gt;查看子账户使用服务数据&lt;br&gt;子帐号用量报表&lt;br&gt;总用量报表" style="whiteSpace=wrap;html=1;rounded=1;align=right;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="858" y="466" width="154" height="86" as="geometry" />
         </mxCell>
         <mxCell id="lve1HU6sVbhPU620Vps4-43" value="用户账户钱包@组织者&lt;br&gt;&lt;br&gt;预存费用&lt;br&gt;充值记录&lt;br&gt;是否余额不足" style="whiteSpace=wrap;html=1;rounded=1;align=right;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
@@ -82,7 +94,7 @@
         <mxCell id="lve1HU6sVbhPU620Vps4-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lve1HU6sVbhPU620Vps4-44" target="lve1HU6sVbhPU620Vps4-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lve1HU6sVbhPU620Vps4-44" value="AI服务" style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;" vertex="1" parent="1">
+        <mxCell id="lve1HU6sVbhPU620Vps4-44" value="可调用AI服务" style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;" vertex="1" parent="1">
           <mxGeometry x="442" y="611" width="121" height="26" as="geometry" />
         </mxCell>
         <mxCell id="lve1HU6sVbhPU620Vps4-50" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lve1HU6sVbhPU620Vps4-45" target="lve1HU6sVbhPU620Vps4-47">
@@ -91,26 +103,32 @@
         <mxCell id="lve1HU6sVbhPU620Vps4-51" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.009;entryY=0.639;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lve1HU6sVbhPU620Vps4-45" target="lve1HU6sVbhPU620Vps4-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="lve1HU6sVbhPU620Vps4-62" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="lve1HU6sVbhPU620Vps4-45" target="lve1HU6sVbhPU620Vps4-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="lve1HU6sVbhPU620Vps4-45" value="产品套餐" style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;" vertex="1" parent="1">
-          <mxGeometry x="445" y="398" width="121" height="26" as="geometry" />
+          <mxGeometry x="451" y="471" width="121" height="26" as="geometry" />
         </mxCell>
         <mxCell id="lve1HU6sVbhPU620Vps4-47" value="基础费用(座席费) /年&lt;br&gt;1. Basic 5人以下&lt;br&gt;2. Pro 5-20人&lt;br&gt;3. 20人以上" style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;align=left;" vertex="1" parent="1">
-          <mxGeometry x="613" y="375" width="133" height="72" as="geometry" />
+          <mxGeometry x="619" y="448" width="133" height="72" as="geometry" />
         </mxCell>
-        <mxCell id="lve1HU6sVbhPU620Vps4-48" value="AI服务套餐 / 年&lt;br&gt;费用/预存费用" style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;align=left;" vertex="1" parent="1">
-          <mxGeometry x="610" y="454" width="114" height="72" as="geometry" />
+        <mxCell id="lve1HU6sVbhPU620Vps4-48" value="AI服务订阅套餐 / 年&lt;br&gt;费用/预存费用" style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;align=left;" vertex="1" parent="1">
+          <mxGeometry x="616" y="541" width="127" height="44" as="geometry" />
         </mxCell>
         <mxCell id="lve1HU6sVbhPU620Vps4-49" value="试用期" style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;align=left;" vertex="1" parent="1">
-          <mxGeometry x="702" y="315" width="58" height="30" as="geometry" />
+          <mxGeometry x="621" y="402" width="58" height="30" as="geometry" />
         </mxCell>
         <mxCell id="lve1HU6sVbhPU620Vps4-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="lve1HU6sVbhPU620Vps4-44" target="lve1HU6sVbhPU620Vps4-55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="lve1HU6sVbhPU620Vps4-53" value="AI供应商&lt;br&gt;&lt;br&gt;类型: 文生文/文生图/文生视频&lt;br&gt;供应商: openAI / midjourney ...&lt;br&gt;配置Settings: token ...." style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;align=left;" vertex="1" parent="1">
+        <mxCell id="lve1HU6sVbhPU620Vps4-53" value="AI供应商&lt;br&gt;&lt;br&gt;类型: 文生文/文生图/文生视频&lt;br&gt;供应商: openAI / midjourney ...&lt;br&gt;配置Settings: ...." style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;align=left;" vertex="1" parent="1">
           <mxGeometry x="724" y="599" width="221" height="104" as="geometry" />
         </mxCell>
         <mxCell id="lve1HU6sVbhPU620Vps4-55" value="AI前置过滤器&lt;br&gt;&lt;br&gt;敏感词&lt;br&gt;帐号池&lt;br&gt;自动翻译&lt;br&gt;数据调用?" style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;align=left;" vertex="1" parent="1">
           <mxGeometry x="493" y="689" width="93" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lve1HU6sVbhPU620Vps4-60" value="文本对话&lt;br&gt;图片/多媒体资产&lt;br&gt;..." style="whiteSpace=wrap;html=1;rounded=1;spacingLeft=4;spacingBottom=4;spacingTop=4;spacingRight=4;align=left;" vertex="1" parent="1">
+          <mxGeometry x="635" y="309" width="109" height="58" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
