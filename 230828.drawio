@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-14T15:33:27.560Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="hQdGkRW4Vg9Tys6w2yqJ" version="22.0.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-14T15:36:22.340Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="ReU4gjZs2mPJkCFxI0V4" version="22.0.4" type="github" pages="3">
   <diagram name="第 1 页" id="IOFBIGlpEkWvhjMVzclq">
     <mxGraphModel dx="838" dy="1245" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" background="#D4E1F5" math="0" shadow="0">
       <root>
@@ -370,7 +370,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="rRSc_ur9lZob2JiMtS-4" name="聚美app流程">
-    <mxGraphModel dx="1197" dy="1207" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1197" dy="1284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -401,8 +401,8 @@
         <mxCell id="YVvzEUrq8drLlfdrbXNN-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YVvzEUrq8drLlfdrbXNN-6" target="YVvzEUrq8drLlfdrbXNN-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YVvzEUrq8drLlfdrbXNN-6" value="可查询该用户&lt;br&gt;预约记录&lt;br&gt;治疗记录&lt;br&gt;健康档案" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="309" y="280" width="120" height="60" as="geometry" />
+        <mxCell id="YVvzEUrq8drLlfdrbXNN-6" value="可查询 &amp;nbsp; 用户&lt;br&gt;预约记录&lt;br&gt;治疗记录&lt;br&gt;健康档案&lt;br&gt;可查询 治疗师&lt;br&gt;治疗记录&lt;br&gt;可查询 &amp;nbsp;产品&lt;br&gt;流转状态&lt;br&gt;可查询 &amp;nbsp;订单记录" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="309" y="240" width="120" height="180" as="geometry" />
         </mxCell>
         <mxCell id="YVvzEUrq8drLlfdrbXNN-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YVvzEUrq8drLlfdrbXNN-7" target="YVvzEUrq8drLlfdrbXNN-9">
           <mxGeometry relative="1" as="geometry" />
@@ -458,7 +458,7 @@
         <mxCell id="YVvzEUrq8drLlfdrbXNN-25" value="管理员" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;labelBackgroundColor=none;fillColor=#F2CC8F;strokeColor=#E07A5F;fontColor=#393C56;" vertex="1" parent="1">
           <mxGeometry x="24" y="670" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="YVvzEUrq8drLlfdrbXNN-29" value="开始接受治疗&lt;br&gt;/再接受治疗" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="YVvzEUrq8drLlfdrbXNN-29" value="开始接受治疗&lt;br&gt;/再接受治疗" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
           <mxGeometry x="444" y="660" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YVvzEUrq8drLlfdrbXNN-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YVvzEUrq8drLlfdrbXNN-30" target="YVvzEUrq8drLlfdrbXNN-29">
