@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-22T11:14:59.553Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="fag1Bg4bIoHoBhyCvWKg" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-31T17:51:40.962Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="wlUR6X1r7WIKFj7VtgMW" version="22.0.8" type="github" pages="2">
   <diagram name="业务流" id="i1FbcwPXpK-9clcR7VoC">
-    <mxGraphModel dx="1217" dy="1303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1450" dy="1021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -160,6 +160,144 @@
         </mxCell>
         <mxCell id="phIoem3qohuBOrA11PT0-53" value="@医疗点&lt;br&gt;机构名称&lt;br&gt;地址&lt;br&gt;gps信息&lt;br&gt;联系人 联系人电话" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;" parent="1" vertex="1">
           <mxGeometry x="1140" y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nZuqEtpKRWH8RKdQTPRE" name="订单流v1">
+    <mxGraphModel dx="1015" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#60E696;fontColor=#095C86;fillColor=#F694C1;strokeWidth=4;" edge="1" parent="1" source="BHDEeI0lCY2sCOCd4_mu-2" target="BHDEeI0lCY2sCOCd4_mu-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="260" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-19" value="注册 / 购买" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#B3B3B3;" vertex="1" connectable="0" parent="BHDEeI0lCY2sCOCd4_mu-10">
+          <mxGeometry x="0.1417" relative="1" as="geometry">
+            <mxPoint x="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-21" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#60E696;fontColor=#095C86;fillColor=#F694C1;strokeWidth=4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BHDEeI0lCY2sCOCd4_mu-2" target="BHDEeI0lCY2sCOCd4_mu-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="60" />
+              <mxPoint x="130" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-22" value="3. 用户预约确认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#095C86;" vertex="1" connectable="0" parent="BHDEeI0lCY2sCOCd4_mu-21">
+          <mxGeometry x="0.4514" y="2" relative="1" as="geometry">
+            <mxPoint x="-2" y="-112" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-2" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#AF45ED;fontColor=#095C86;fillColor=#F694C1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#9999FF;strokeWidth=4;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#095C86;endArrow=classic;fillColor=#F694C1;" edge="1" parent="1" source="BHDEeI0lCY2sCOCd4_mu-3" target="BHDEeI0lCY2sCOCd4_mu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-32" value="0. 手动生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#095C86;" vertex="1" connectable="0" parent="BHDEeI0lCY2sCOCd4_mu-31">
+          <mxGeometry x="-0.0583" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-44" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#9999FF;strokeWidth=4;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#095C86;endArrow=classic;fillColor=#F694C1;" edge="1" parent="1" source="BHDEeI0lCY2sCOCd4_mu-3" target="BHDEeI0lCY2sCOCd4_mu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-45" value="7. 通知用户预约时间" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#095C86;" vertex="1" connectable="0" parent="BHDEeI0lCY2sCOCd4_mu-44">
+          <mxGeometry x="-0.226" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-3" value="门店管理" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#AF45ED;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-29" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=#60E696;strokeWidth=4;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#095C86;endArrow=classic;fillColor=#F694C1;" edge="1" parent="1" source="BHDEeI0lCY2sCOCd4_mu-4" target="BHDEeI0lCY2sCOCd4_mu-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-30" value="6. 确认生产完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#095C86;" vertex="1" connectable="0" parent="BHDEeI0lCY2sCOCd4_mu-29">
+          <mxGeometry x="0.2431" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-33" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;labelBackgroundColor=default;strokeColor=#9999FF;strokeWidth=4;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#095C86;endArrow=classic;fillColor=#F694C1;" edge="1" parent="1" source="BHDEeI0lCY2sCOCd4_mu-4" target="BHDEeI0lCY2sCOCd4_mu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-34" value="6.1 物流配送" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#095C86;" vertex="1" connectable="0" parent="BHDEeI0lCY2sCOCd4_mu-33">
+          <mxGeometry x="-0.2258" y="-3" relative="1" as="geometry">
+            <mxPoint x="-15" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-4" value="工厂" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#AF45ED;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-6" value="产品订单（服务）" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#AF45ED;fontColor=#095C86;fillColor=#F694C1;size=40;" vertex="1" parent="1">
+          <mxGeometry x="420" y="190" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#60E696;fontColor=#095C86;fillColor=#F694C1;strokeWidth=4;" edge="1" parent="1" source="BHDEeI0lCY2sCOCd4_mu-7" target="BHDEeI0lCY2sCOCd4_mu-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-35" value="5. 预约确认后同步创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#095C86;" vertex="1" connectable="0" parent="BHDEeI0lCY2sCOCd4_mu-14">
+          <mxGeometry x="-0.04" y="-2" relative="1" as="geometry">
+            <mxPoint x="6" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-7" value="服务订单" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#AF45ED;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="350" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-13" value="工厂订单" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#AF45ED;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="260" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-26" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#60E696;fontColor=#095C86;fillColor=#F694C1;strokeWidth=4;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="BHDEeI0lCY2sCOCd4_mu-36" target="BHDEeI0lCY2sCOCd4_mu-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="295" y="310" />
+              <mxPoint x="290" y="310" />
+              <mxPoint x="290" y="220" />
+              <mxPoint x="190" y="220" />
+              <mxPoint x="190" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#60E696;fontColor=#095C86;fillColor=#F694C1;strokeWidth=4;exitX=0.469;exitY=1.046;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BHDEeI0lCY2sCOCd4_mu-6" target="BHDEeI0lCY2sCOCd4_mu-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="280" as="sourcePoint" />
+            <mxPoint x="252" y="82" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490" y="290" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-40" value="2. 请求用户预约" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#095C86;" vertex="1" connectable="0" parent="BHDEeI0lCY2sCOCd4_mu-39">
+          <mxGeometry x="-0.5097" y="1" relative="1" as="geometry">
+            <mxPoint x="-291" y="-98" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-42" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#60E696;strokeWidth=4;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=#095C86;endArrow=classic;fillColor=#F694C1;" edge="1" parent="1" source="BHDEeI0lCY2sCOCd4_mu-36" target="BHDEeI0lCY2sCOCd4_mu-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-43" value="4. 准备服务，生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#095C86;" vertex="1" connectable="0" parent="BHDEeI0lCY2sCOCd4_mu-42">
+          <mxGeometry x="0.0822" relative="1" as="geometry">
+            <mxPoint x="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-36" value="预约单" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#AF45ED;fontColor=#095C86;fillColor=#F694C1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="270" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-41" value="1. 系统确认支付/手动确认" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#095C86;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="494.9989655172414" y="270.00448275862084" as="geometry">
+            <mxPoint x="-5" y="3" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
