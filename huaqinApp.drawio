@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T18:09:43.143Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="gVZ5XqtsfPXAFr18FaSD" version="22.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-31T18:10:53.825Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="sRZ37xSFahZbLjKVEDyi" version="22.0.8" type="github" pages="2">
   <diagram name="业务流" id="i1FbcwPXpK-9clcR7VoC">
     <mxGraphModel dx="1450" dy="1021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -196,9 +196,6 @@
             <mxPoint x="12" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BHDEeI0lCY2sCOCd4_mu-2" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#AF45ED;fontColor=#095C86;fillColor=#F694C1;labelBackgroundColor=none;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="130" y="70" width="30" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="BHDEeI0lCY2sCOCd4_mu-31" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#9999FF;strokeWidth=4;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=#095C86;endArrow=classic;fillColor=#F694C1;" edge="1" parent="1" source="BHDEeI0lCY2sCOCd4_mu-3" target="BHDEeI0lCY2sCOCd4_mu-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -327,6 +324,9 @@
           <mxGeometry x="449.9989655172414" y="160.00448275862084" as="geometry">
             <mxPoint x="-5" y="3" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-2" value="用户" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#AF45ED;fontColor=#095C86;fillColor=#F694C1;labelBackgroundColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="130" y="70" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
