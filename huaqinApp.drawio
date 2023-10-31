@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T18:08:40.507Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="LOBIbJPx_a8EGFVa3w6w" version="22.0.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-10-31T18:09:43.143Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="gVZ5XqtsfPXAFr18FaSD" version="22.0.8" type="github" pages="2">
   <diagram name="业务流" id="i1FbcwPXpK-9clcR7VoC">
     <mxGraphModel dx="1450" dy="1021" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -210,9 +210,16 @@
         <mxCell id="BHDEeI0lCY2sCOCd4_mu-44" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=#9999FF;strokeWidth=4;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=14;fontColor=#095C86;endArrow=classic;fillColor=#F694C1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BHDEeI0lCY2sCOCd4_mu-3" target="BHDEeI0lCY2sCOCd4_mu-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="785" y="50" />
               <mxPoint x="735" y="50" />
-              <mxPoint x="35" y="50" />
+              <mxPoint x="735" y="30" />
+              <mxPoint x="145" y="30" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BHDEeI0lCY2sCOCd4_mu-58" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;6. 确认收货/库存， 通知用户&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=11;fontFamily=Helvetica;fontColor=#095C86;" vertex="1" connectable="0" parent="BHDEeI0lCY2sCOCd4_mu-44">
+          <mxGeometry x="-0.0164" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BHDEeI0lCY2sCOCd4_mu-3" value="门店管理" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;strokeColor=#AF45ED;fontColor=#095C86;fillColor=#F694C1;fontSize=14;" vertex="1" parent="1">
