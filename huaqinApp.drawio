@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-12T02:46:13.617Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="y6gvTlxaUYbZdwg5Hywe" version="22.1.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-11-12T02:47:52.126Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15" etag="CcYanyOBOXYhSJ8F0WT_" version="22.1.0" type="github" pages="3">
   <diagram name="业务流" id="i1FbcwPXpK-9clcR7VoC">
     <mxGraphModel dx="836" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -412,13 +412,11 @@
             <mxPoint x="510" y="360" as="targetPoint" />
             <Array as="points">
               <mxPoint x="670" y="140" />
-              <mxPoint x="670" y="370" />
-              <mxPoint x="580" y="370" />
-              <mxPoint x="580" y="360" />
+              <mxPoint x="670" y="360" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qU2Cb7NOTm1eHbl98mGZ-26" value="确认后（包含收费等）&lt;br&gt;批准预约单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#095C86;" vertex="1" connectable="0" parent="qU2Cb7NOTm1eHbl98mGZ-24">
+        <mxCell id="qU2Cb7NOTm1eHbl98mGZ-26" value="确认后（跟客户确认预约意向）&lt;br&gt;批准预约单" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;fontFamily=Helvetica;fontColor=#095C86;" vertex="1" connectable="0" parent="qU2Cb7NOTm1eHbl98mGZ-24">
           <mxGeometry x="0.0308" y="1" relative="1" as="geometry">
             <mxPoint y="-6" as="offset" />
           </mxGeometry>
