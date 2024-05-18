@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-18T07:03:54.651Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" etag="HqoTqCy5--o04YUO-vCm" version="24.4.4" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-18T07:05:30.053Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15" etag="2qOJPoyJN1z2pqkg-1Uw" version="24.4.4" type="github" pages="3">
   <diagram name="第 1 页" id="IOFBIGlpEkWvhjMVzclq">
     <mxGraphModel dx="643" dy="1148" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1169" pageHeight="1654" background="#D4E1F5" math="0" shadow="0">
       <root>
@@ -146,11 +146,20 @@
     </mxGraphModel>
   </diagram>
   <diagram id="5L8wI-FdS9rlYB0B0ajt" name="userflow" />
-  <diagram id="fV9ULKEIH6kTryzNa1ID" name="Page-3">
+  <diagram id="fV9ULKEIH6kTryzNa1ID" name="流量代理机">
     <mxGraphModel dx="886" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KVwiWFSlEMKkTBWLSzXr-1" value="MAC&lt;div&gt;STASH&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="240" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="KVwiWFSlEMKkTBWLSzXr-2" value="192.168.0.99" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KVwiWFSlEMKkTBWLSzXr-3" value="落地IP" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
